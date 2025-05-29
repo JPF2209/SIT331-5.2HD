@@ -27,10 +27,11 @@ For my different technologies that I implemented, I chose to implement MongoDB b
 4. Download the x64 installer for windows, the .pkg installer for macOS or for linux the commands below
    
 ### Register Microsoft package repo
-sudo apt update
-sudo apt install -y wget apt-transport-https software-properties-common
-wget https://packages.microsoft.com/config/ubuntu/$(lsb_release -rs)/packages-microsoft-prod.deb
-sudo dpkg -i packages-microsoft-prod.deb
+(FYI, do not copy the numbers on the left, just copy and paste from dotnet onwards)
+1. sudo apt update
+2. sudo apt install -y wget apt-transport-https software-properties-common
+3. wget https://packages.microsoft.com/config/ubuntu/$(lsb_release -rs)/packages-microsoft-prod.deb
+4. sudo dpkg -i packages-microsoft-prod.deb
 
 ### Install SDK
 sudo apt update
