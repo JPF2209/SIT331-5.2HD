@@ -43,18 +43,19 @@ sudo apt install -y dotnet-sdk-8.0  # Replace 8.0 with latest if needed
 1. On the terminal in VS code once you download the files, run "dotnet restore", this should do the trick
 ### Manual
 If you need to install it manually, using dotnet download these libraries.
+(FYI, do not copy the numbers on the left, just copy and paste from dotnet onwards)
 
-dotnet add package FastMember.Signed --version 1.5.0
-dotnet add package Microsoft.AspNetCore.OpenApi --version 7.0.7
-dotnet add package Microsoft.NET.Test.Sdk --version 17.9.0
-dotnet add package MongoDB.Driver --version 3.4.0
-dotnet add package Moq --version 4.20.72
-dotnet add package Newtonsoft.Json --version 13.0.1
-dotnet add package Npgsql --version 6.0.5
-dotnet add package Swashbuckle.AspNetCore --version 6.5.0
-dotnet add package xunit --version 2.5.1
-dotnet add package xunit.analyzers --version 1.18.0
-dotnet add package xunit.runner.visualstudio --version 2.5.1
+1. dotnet add package FastMember.Signed --version 1.5.0
+2. dotnet add package Microsoft.AspNetCore.OpenApi --version 7.0.7
+3. dotnet add package Microsoft.NET.Test.Sdk --version 17.9.0
+4. dotnet add package MongoDB.Driver --version 3.4.0
+5. dotnet add package Moq --version 4.20.72
+6. dotnet add package Newtonsoft.Json --version 13.0.1
+7. dotnet add package Npgsql --version 6.0.5
+8. dotnet add package Swashbuckle.AspNetCore --version 6.5.0
+9. dotnet add package xunit --version 2.5.1
+10. dotnet add package xunit.analyzers --version 1.18.0
+11. dotnet add package xunit.runner.visualstudio --version 2.5.1
 
 Once you do this, the project should then work and to verify it's worked, run the command below and see if all these libraries are installed
 dotnet list package
